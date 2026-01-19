@@ -3,10 +3,10 @@ import { Button } from './ui/Button';
 
 export const TokenInfo: React.FC = () => {
     const [copied, setCopied] = useState(false);
-    const contractAddress = "0xB11GD0G...8888"; // Placeholder
+    const contractAddress = "Comming Soon"; // Placeholder
 
     const handleCopy = () => {
-        navigator.clipboard.writeText("0xB11GD0G...8888");
+        navigator.clipboard.writeText("Comming Soon");
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
     };

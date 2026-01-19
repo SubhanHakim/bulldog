@@ -43,8 +43,8 @@ export const Hero: React.FC = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 md:gap-6 pt-8 md:pt-10 w-full sm:w-auto">
-                            <Button className="w-full sm:w-auto hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(139,90,43,0.3)]">Acquire Token</Button>
-                            <Button variant="outline" className="w-full sm:w-auto">Read Manifesto</Button>
+                            <Button className="w-full sm:w-auto hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(139,90,43,0.3)]"><a href="#" target="_blank">Join Community</a></Button>
+                            <Button variant="outline" className="w-full sm:w-auto"><a href="#" target="_blank">PumpFun</a></Button>
                         </div>
                     </div>
 
